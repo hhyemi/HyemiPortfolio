@@ -1,1 +1,373 @@
 
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>Hyemi Portfolio</title>
+   
+   <!-- favicon -->
+    <link rel="shortcut icon" href="images/swimages.PNG">   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >   
+   <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+   
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+   
+   	<link rel="shortcut icon" href="./resources/favicon.png">
+	<link rel="icon" href="./resources/favicon.png">  
+	
+   <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body{
+         font-family: 'Nanum Gothic', sans-serif;
+      }
+      @media (min-width: 300px) { 
+          html { font-size: 50%; } 
+      } 
+      
+      @media (min-width: 700px) { 
+          html { font-size: 100%; } 
+      } 
+      
+      @media (min-width: 1200px) { 
+          html { font-size: 120%; } 
+      }
+ 		@font-face {
+    		font-family: 'YouandiModernTR';
+   		 	font-style: normal;
+    		font-weight: normal;
+    		src: url(./resources/NanumSquare_acB.ttf) format('woff');
+		} 
+		#mainNav, body, .nav-link, .dropdown-item, .navbar-brand, h2, h3, h4, h5, h6, p, b, a, th, td {
+    		font-family: 'YouandiModernTR', sans-serif !important;
+    	}      
+      #home{
+      
+          background: url(./resources/freepik412.jpg) no-repeat center center fixed; 
+ 
+       }
+       p.typing-txt{display: none;}
+  
+
+   .typing {  
+   /*       position: absolute;*/ 
+        display: inline-block; 
+         animation-name: cursor; 
+         animation-duration: 0.5s; 
+         animation-iteration-count: infinite; 
+       } 
+       @keyframes cursor{ 
+         0%{border-right: 2px solid #fff} 
+         50%{border-right: 2px solid #000} 
+         100%{border-right: 2px solid #fff} 
+       }
+       .nav-link{
+       	font-size : 24px !important;
+       	padding-left:150px !important;
+       	
+       }
+       a:hover {
+			color: #ff9f29 !important;
+       }
+       a{
+			color: #ffd096 !important;
+       }
+       a.active-color { color:#ff9f29; }
+
+   </style>
+</head>
+
+<body>
+     <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light rounded">
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+   
+       <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+         <ul class="navbar-nav" >
+           <li class="nav-item">
+             <a class="nav-link" href="#home" ><strong>Home</strong></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#about"><strong>About</strong></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#skill"><strong>Skills</strong></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#project"><strong>Project</strong></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#contact"><strong>Contact</strong></a>
+           </li>
+         </ul>
+       </div>
+     </nav>
+     <div id="home" class="text-center" style="margin-top: 50px; height: 650px;">
+            <br/><br/>
+            <div class="text-center" style="margin-top: 200px;">
+            <div class="text-light">
+               <span><strong class="typing" style="font-size: 3em;color:black"></strong></span>
+            </div>
+            <p class="typing-txt" >개발자 이혜미의 포트폴리오입니다!</p> 
+            </div>   
+     </div>
+     
+     <div id="about" class="container" style="padding-top: 50px;">
+     <br/>     
+        <h3 class="text-secondary text-center"><strong>About Me</strong></h3>
+     <br/>  
+           <div class="row">
+              <div class="col-md-4">
+             <h5 class="text-center">
+                <span><strong>행동으로 보여주는 개발자</strong></span>
+             </h5>
+             </div>
+             <div class="col-md-8">             
+                <p>
+“인생의 위대한 목표는 지식이 아니라 행동이다” 인 저의 좌우명에 따라 저는 어렸을 때부터 과감한 편이였으며 일단 하고보자는 행동으로 경험하는 것을 추구하였습니다. 해보지도 않은 일을 포기하지 않고 새로운 일을 시도하는 솔선력이 강했습니다. 그 결과 사람들에게도 먼저 다가가 교우관계가 완만하였고 적극적인 행동을 통해서 성격도 긍정적이고 자신감이 넘치게 되었습니다. 대학생활에는 학생회 활동을 통해 봉사를 먼저 행하였고 간부직을 통해 리더십을 발휘해 학생들을 이끌었으며 의견을 조율하는 데 자신이 있습니다. 이런 저의 성격은 색다른 경험과 많은 사람들은 만나게 되었고 그로 인해 상황을 통한 행동들과 사람에 대한 태도들을 많이 배우게 되었습니다.
+                </p>
+             </div>   
+             </div>   
+           <br/><br/>
+     </div>
+     
+     <div id="skill" style="padding: 50px; background: #ebebeb" >
+     <div class="container">
+         <br/>     
+        <h3 class="text-secondary text-center"><strong>Skills</strong></h3>
+        <br/><br/>
+        <div class="row">
+           <div class="col-md-4 text-center">
+           <br/>
+            <h5><strong>Languages</strong></h5>
+            </div>
+           <div class="col-md-8 text-left">         
+              <img alt="..." src="images/java.png" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">
+              <img alt="..." src="images/jsjs.png" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">
+              <img alt="..." src="images/htcs.png" class="rounded shadow" width="210px;" height="100px;" style="margin: 5px;">   
+              <img alt="..." src="images/python.jpg" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">
+              
+            </div>
+        </div> 
+         <br/><br/>
+         <div class="row">
+           <div class="col-md-4 text-center">
+              <br/>
+            <h5><strong>Front-end</strong></h5>
+            </div>
+           <div class="col-md-8 text-left">   
+               
+              <img alt="..." src="images/jquery.png" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">
+              <img alt="..." src="images/ajax.png" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">
+              <img alt="..." src="images/boots.png" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">   
+            </div>
+        </div>
+         <br/><br/>
+         <div class="row">
+           <div class="col-md-4 text-center">
+           <br/>
+            <h5><strong>Back-end</strong></h5>
+            </div>
+           <div class="col-md-8 text-left">         
+           </div>
+        </div>
+        <div class="row">
+           <div class="col-md-4 text-center text-secondary">
+           <br/>
+            <h5>FrameWork</h5>
+            </div>
+           <div class="col-md-8 text-left">         
+              <img alt="..." src="images/spring.png" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">
+              <img alt="..." src="images/mybatis.jpg" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">
+              <img alt="..." src="images/nodeso.png" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">
+              <img alt="..." src="images/junit.png" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-4 text-center text-secondary">
+           <br/>
+            <h5>Server / DB</h5>
+            </div>
+           <div class="col-md-8 text-left">         
+              <img alt="..." src="images/tom.png" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">
+              <img alt="..." src="images/rest.png" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">
+              <img alt="..." src="images/oracle.png" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">
+            </div>
+        </div>
+        <br/><br/>
+         <div class="row">
+           <div class="col-md-4 text-center">
+           <br/>
+            <h5><strong>Etc</strong></h5>
+            </div>
+           <div class="col-md-8 text-left">   
+              <img alt="..." src="images/aws.png" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">
+              <img alt="..." src="images/github.png" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">
+              <img alt="..." src="images/postman.png" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">   
+              <img alt="..." src="images/uml.jpg" class="rounded shadow" width="100px;" height="100px;" style="margin: 5px;">   
+           </div>
+        </div>
+        
+        <br/><br/>
+        <br/><br/>
+        <br/><br/>
+     </div>
+     </div>
+     
+     
+     <div id="project" class="container" style="padding-top: 50px;">
+          <br/>     
+        <h3 class="text-secondary text-center"><strong>Project</strong></h3>
+        <br/>
+        
+<!--         project 1 -->
+        <div class="card border shadow-sm rounded" style="max-width: 100%; margin: 10px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="./resources/main.png" class="card-img" alt="..." height="100%">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><strong>프로젝트명 : 보호할개 ( 유기견 보호 사이트 )</strong></h5>
+              <p class="card-text"><small class="text-muted">설명 : 반려견의 입양·분양, 스토리펀딩 , 관련정보 및 상품 판매를 회원들에게 제공함으로써 유기견 없는 사회를 실현하고자 하는 시스템 </small></p>
+              <p class="card-text"><small class="text-muted">개발기간 : 2019-06 ~ 2019-08</small></p>
+              <p class="card-text"><small class="text-muted">프로젝트인원 : 5명</small></p>
+
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-outline-info">Run</a>
+              <a href="T-get-_nsw_.html" class="btn btn-outline-info">Document</a>
+              <a href="https://github.com/Lionhead93/Tget" class="btn btn-outline-info">Repository</a>
+            </div>
+          </div>
+        </div>
+        </div>
+<!--         project 2 -->   
+        <div class="card border shadow-sm rounded" style="max-width: 100%; margin: 10px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="resources/shop.PNG" class="card-img" alt="..." height="100%">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+               <h5 class="card-title"><strong>프로젝트명 : Hyemi Shop ( 쇼핑몰 )</strong></h5>
+              <p class="card-text"><small class="text-muted">설명 : 사용자에게 쇼핑몰 제품을 구매, 장바구니, 후기, Q&A를 제공하고 관리자페이지에서 재고관리 배송시스템 등 쇼핑몰의 전반적인 기능을 제공하는 시스템</small></p>             
+              <p class="card-text"><small class="text-muted">개발기간 : 2019-04 ~ 2019-06</small></p>
+              <p class="card-text"><small class="text-muted">프로젝트인원 : 1명 ( 개인프로젝트 )</small></p>
+              <p class="card-text"></p>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-outline-info">Run</a>
+              <a href="https://github.com/Lionhead93/11MVC" class="btn btn-outline-info">Repository</a>
+              
+            </div>
+          </div>
+        </div>
+        </div>
+        <!--         project 2 -->   
+        <div class="card border shadow-sm rounded" style="max-width: 100%; margin: 10px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="resources/NTS.PNG" class="card-img" alt="..." height="100%">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+               <h5 class="card-title"><strong>프로젝트명 : NTS 매니저 ( 회사 모바일 모니터링 어플 )</strong></h5>
+              <p class="card-text"><small class="text-muted">설명 : 회사에서 제공하는 냉장/냉동 온도관리 시스템 NTS의 모바일 모니터링 앱, 서비스 내역 조회 및 월별 서비스 내역 조회기능, 기간별 검색기능, 센서계측내역 검색 및 자료 조회 기능 </small></p>             
+              <p class="card-text"><small class="text-muted">개발기간 : 2018-07 ~ 2018-08</small></p>
+              <p class="card-text"><small class="text-muted">프로젝트인원 : 1명 ( 개인프로젝트 ) </small></p>
+              <p class="card-text"></p>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-outline-info">Run</a>
+              <a href="https://github.com/Lionhead93/11MVC" class="btn btn-outline-info">Repository</a>
+              
+            </div>
+          </div>
+        </div>
+        </div>
+         <!--         project 2 -->   
+        <div class="card border shadow-sm rounded" style="max-width: 100%; margin: 10px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="resources/eye.PNG" class="card-img" alt="..." height="100%">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+               <h5 class="card-title"><strong>프로젝트명 : 졸음 운전 싫어요! ( 졸음 운전 방지 어플 )</strong></h5>
+              <p class="card-text"><small class="text-muted">설명 : 카메라로 운전자를 실시간으로 촬영해 졸음이 판단되면 경보음을 울리는 앱, 네비게이션 기능을 추가하여 한 어플에 기능을 같이 사용하여 졸음운전에 대한 사고를 줄이는 데 기여할 수 있는 시스템</small></p>             
+              <p class="card-text"><small class="text-muted">개발기간 : 2018-04 ~ 2018-05</small></p>
+              <p class="card-text"><small class="text-muted">프로젝트인원 : 3명 </small></p>
+              <p class="card-text"></p>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-outline-info">Run</a>
+              <a href="https://github.com/Lionhead93/11MVC" class="btn btn-outline-info">Repository</a>
+              
+            </div>
+          </div>
+        </div>
+        </div>       
+<!--         project 2 -->   
+        <div class="card border shadow-sm rounded" style="max-width: 100%; margin: 10px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="resources/waterIndex.PNG" class="card-img" alt="..." height="100%" >
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><strong>프로젝트명 : Hongik WaterPark ( 워터파크 사이트 )</strong></h5>
+              <p class="card-text"><small class="text-muted">설명 : 워터파크의 놀이기구 실시간예약, 락커룸 대여, 음식결제, 물품대여를 제공하여 사용자에게 편의를 제공하는 시스템</small></p>             
+              <p class="card-text"><small class="text-muted">개발기간 : 2017-11 ~ 2017-12</small></p>
+              <p class="card-text"><small class="text-muted">프로젝트인원 : 4명</small></p>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-outline-info">Run</a>
+              <a href="https://github.com/Lionhead93/11MVC" class="btn btn-outline-info">Repository</a>
+              
+            </div>
+          </div>
+        </div>
+        </div>
+<br/><br/>
+     </div>
+     <div id="contact" style="padding-top: 20px; background: #ebebeb" >
+     <br/>     
+        <h3 class="text-secondary text-center"><strong>Contact</strong></h3>
+     <br/> 
+     <h5 class="text-dark text-center"><strong><img src="resources/email.png" height="50px" width="50px"></img>&nbsp;&nbsp;dlgpal9508@gmail.com</strong></h5>
+     <h5 class="text-dark text-center"><strong><img src="resources/phone-book.png" height="50px" width="50px"></img>&nbsp;&nbsp;010-8410-0099</strong></h5><br/>
+     
+     <h1 class="text-center"><a class="text-dark" href="https://github.com/dlgpal95"><i class="fab fa-github"></i></a></h1><br/>
+     <br/>
+ 
+     </div>  
+     <script type="text/javascript">    
+        var typingBool = false; 
+       var typingIdx=0; 
+       var typingTxt = $(".typing-txt").text(); 
+       typingTxt=typingTxt.split(""); 
+       if(typingBool==false){ 
+          typingBool=true; 
+          
+          var tyInt = setInterval(typing,100); 
+        }         
+        function typing(){ 
+          if(typingIdx<typingTxt.length){ 
+            $(".typing").append(typingTxt[typingIdx]); 
+            typingIdx++; 
+          } else{ 
+            clearInterval(tyInt);
+          } 
+        }  
+        
+        $("a").click(function() {
+        	
+        	$(this).toggleClass(".active-color");
+        	});
+
+     </script>
+</body>
+</html>
